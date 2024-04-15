@@ -55,3 +55,23 @@ A very useful process is .gitignore. It is not a command, but a file the user cr
 * The file tells Git what files in the directory to ignore when committing files in our working directory to the repository. 
 * It should be used as it is essential for maintaining privacy and security. Any files containing passwords, 
 sensitive information, specific code or generally files the user does not want git to track and to be seen publically.
+
+# Distributed version control
+
+
+### What is Github?
+
+Github in essence is a cloud based repository. It is a platform where code can be hosted and allows for collaboration and
+version control on projects. It works with git, which is the software, to push locally stored repositories to the shared platform on 
+the internet, to be seen and worked on by others.
+
+### Alternatives to Github
+
+Github is not the only cloud(online) hosted repository platform. There are options such as GitLab, BitBucket,
+AWS CodeCommit and SourceForge, to name a few. GitHub however, is the most popular.
+
+### How do you add a local repo to a remote repo (GitHub)?
+
+There are a few steps involved, but they are simple
+* First is the creation of your local repo (see above).
+* Second is inputting commands ```git remote add origin```followed by the url destination. 
